@@ -1,6 +1,6 @@
 resource "null_resource" "message" {
   # Changes to any instance of the cluster requires re-provisioning
-  triggers {
+  triggers = {
     message = var.message
   }
 
