@@ -1,4 +1,4 @@
 variable "message" {
   type    = string
-  default = "Hello World"
+  default = "Hello World!"
 }
